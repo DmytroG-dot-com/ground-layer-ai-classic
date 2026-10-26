@@ -1,0 +1,26 @@
+/* Brand palette drawn from Ground Layer AI's main site. */
+:root {
+  --background: #ffffff;
+  --foreground: #071744;
+  --primary: #071744;
+  --secondary: #eef3fc;
+  --muted: #4d5d79;
+  --border: #c7d2e6;
+  --accent: #195cd7;
+  --accent-deep: #1249ad;
+  --card: #ffffff;
+  --deep: #061330;
+  --deep-2: #112a5d;
+  --button-ink: #ffffff;
+}
+
+.dark,
+body:has(.theme-toggle-input:checked) {
+  --background: #061330;
+  --foreground: #f8fafd;
+  --primary: #071744;
+  --secondary: #112a5d;
+  --muted: #b8c4d4;
+  --border: #112a5d;
+  --card: #112a5d;
+}
